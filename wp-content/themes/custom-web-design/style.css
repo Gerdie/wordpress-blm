@@ -1,0 +1,210 @@
+/* bootstrap import */
+
+@import url('bootstrap/css/bootstrap.css'); 
+
+
+
+/*
+body { 
+     padding-top: 60px; 
+     padding-bottom: 40px; 
+}
+
+*/
+
+/* main styles */
+
+html {
+	min-height: 100%;
+}
+
+body {
+	background-attachment: scroll;
+	min-height:100%;
+	background-size:cover;
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
+.container {
+	background: none;
+	padding: 5px;
+}
+
+img.biglittlem {
+	width:100%;
+	max-width: 300px;
+	min-width:150px;
+	border:0;
+	margin-top:5%
+}
+
+h1 {
+	font-family: 'Crushed', Times, Times New Roman, serif !important;
+	font-size: 45px !important;
+	text-align: center !important;
+	color: #FFFFFF !important;
+	text-transform: uppercase !important;
+}
+
+a h1, h1 a {
+	text-decoration: none !important;
+	color: #FFFFFF !important;
+}
+
+a h1:hover, h1 a:hover {
+	text-decoration: none !important;
+	color: #FFFFFF !important;
+}
+
+h2 {
+	font-family: 'Crushed', Times, Times New Roman, serif !important;
+	font-size: 45px !important;
+	text-align: center;
+	color: #CD4144 !important;
+	text-transform: uppercase !important;
+}
+
+a h2, h2 a {
+	text-decoration: none !important;
+	color: #CD4144 !important;
+}
+
+.page-id-2 .entry-header {
+	display: none;
+}
+
+.page-id-5 .entry-header {
+	display: none;
+}
+
+.page-id-7 .entry-header {
+	display: none;
+}
+
+/* navbar styles */
+
+.navbar-brand {
+	font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif !important;
+	font-size:20px !important;
+}
+
+/* BACKGROUND URL styles */
+
+body.page.page-id-5 {
+	background:url('assets/apple-iphone-books-desk-min.jpg');
+	background-attachment: scroll;
+	min-height:100%;
+	background-size:cover;
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
+body.page.page-id-7 {
+	background:url('assets/black-scissors-min.jpg');
+	background-attachment: scroll;
+	min-height:100%;
+	background-size:cover;
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
+body.page.page-id-2 {
+	background:url('assets/office-table-home-room-min.jpeg');
+	background-attachment: scroll;
+	min-height:100%;
+	background-size:cover;
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
+.blog body {
+	background:url('red-blue-bricks-pattern-min.jpg');
+	background-repeat: no-repeat;
+}
+
+/* About Page styles */
+
+#about-description {
+	margin: 10px 0px 0px 0px;
+	max-width: 645px;
+}
+
+.about h1 {
+	color: #CD4144;
+}
+
+.about-cont {
+	background:none;
+	padding:5px;
+}
+
+.bg-row {
+	background-color:rgba(255,255,255,0.8);
+}
+
+/* Services Page styles */
+
+.top-box {
+	margin:10px auto;
+	background-color: rgba(255,255,255,0.8);
+	border: 5px solid #777;
+	max-width:450px;
+	height:265px;
+	padding:10px;
+}
+
+.price {
+	text-align:center;
+}
+
+.bottom-box {
+	margin:auto;
+	background-color: rgba(255,255,255,0.8);
+	border: 5px solid #777;
+	max-width:450px;
+	height:265px;
+	padding:10px;
+}
+
+/* Blog Landing Page styles */
+
+div.blog-blm {
+	margin: 10px 0px 0px 0px;
+	max-width:645px;
+	background-color: rgba(255,255,255,0.8);
+	padding: 5px 20px 20px 20px;
+}
+
+button.blog-blm-left {
+	color:#555;
+	background:#FFFFFF;
+	margin:10px auto 10px 30%;
+	align: center;
+}
+
+button.blog-blm-right {
+	color:#555;
+	background:#FFFFFF;
+	margin:10px 10px 10px auto;
+	align: center;
+}
+
+button.blog-blm {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+h2.blog-blm {
+	text-align: left;
+}
+
+/* Blog Single Page styles */
+
+div.post-blm {
+	margin:10px 0px 0px 0px 0px;
+	max-width:645px;
+	background-color:rgba(255,255,255,0.8);
+	padding: 5px 20px 20px 20px;
+}
+
