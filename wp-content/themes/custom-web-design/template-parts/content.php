@@ -28,8 +28,8 @@
 
 	<div class="entry-content">
 		<?php
-		
-		if ( is_single() ) {
+
+if ( is_single() ) {
 		
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
@@ -44,8 +44,11 @@
 			} else {
 				
 				the_excerpt();
+				echo '<a href="' . get_permalink() . '" title="' . __('Read more ', 'custom-web-design') . get_the_title() . '" rel="bookmark" class="read-more">Read more</a>';
+
 				
 			}
+				
 		?>
 	</div><!-- .entry-content -->
 
